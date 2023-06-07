@@ -4,6 +4,7 @@ import java.util.ArrayList;
 public class Solution {
     static boolean searchMatrix(ArrayList<ArrayList<Integer>> mat, int target) {
         // Write your code here.
+        //here we using the binary search Approach so TC (logN) SP O(1)
         int col=mat.get(0).size()-1;
         int row =0;
         while(col>=0 && row<mat.size()){
